@@ -1,34 +1,33 @@
-# nodejs-ts-jar
-nodejs project with typescript and jar file
+# nodejs-ts-jar<br />
+nodejs project with typescript and jar file<br />
 
-**Install Node.js and NPM**
+**Install Node.js and NPM**<br />
 
-https://nodejs.org/en/download/
-npm install -g npm
+https://nodejs.org/en/download/<br />
+npm install -g npm<br /><br />
 
-**Check version**
-node -v
-npm -v
+- **Check version**<br />
+node -v<br />
+npm -v<br /><br />
 
-**Install express**
-npm init
-npm install express --no-save
+- **Install express**<br />
+npm init<br />
+npm install express --no-save<br /><br />
 
-**Build and run the project**
-npm run build
-npm start
-npm run dev
+- **Build and run the project**<br />
+npm run build<br />
+npm start<br />
+npm run dev<br />
 
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view it in the browser.<br /><br />
 
-**NodeJS + TypeScript **
+**NodeJS + TypeScript**<br />
+npm install -D typescript<br />
 
-npm install -D typescript
+install ts-node at https://www.npmjs.com/package/ts-node<br /><br />
 
-install ts-node at https://www.npmjs.com/package/ts-node
+**Run file example:**<br />
+ts-node .\src\add.ts<br /><br />
 
-**Run file example: **
-ts-node .\src\add.ts
-
-**NodeJS + jar file**
+**NodeJS + jar file**<br />
 node index
